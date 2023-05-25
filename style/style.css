@@ -2,7 +2,9 @@ img {
     width: 100%;
     height: 100%;
 }
-
+body {
+  background-color: #fdfbf5;
+}
 /* Colors
 Mørkegrøn: #154E4D
 Lysegrøn:  #3F6E6D
@@ -45,7 +47,17 @@ Orange:    #A13A00
   .card-container:hover .card{
     transform: translate(3%, -1%);
   }
+  .orange-line-vertical {
+    background-color: #E3A781;
+    width: 3px;
+    height: 10vh;
+  }
 
+  .card-text {
+    border-style: solid;
+    border-color: #E3A781;
+    text-align: center;
+  }
 
   /* Header */
   header {

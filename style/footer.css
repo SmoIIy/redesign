@@ -1,12 +1,12 @@
 
 
 footer {
-    position: absolute;
     bottom: 0%;
     background-image: url(/assets/footer.svg);
     background-size: cover;
     width: 100vw;
     aspect-ratio: 16/3;
+    margin-top: 300px;
   }
   .footer-content {
     position: relative;
