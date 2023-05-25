@@ -3,10 +3,9 @@ img {
     height: 100%;
 }
 
-body {
-  display: flex;
-  justify-content: center;
-}
+
+
+/* Card */
 .card-container {
     position: relative;
     height: 15vh;
@@ -41,29 +40,80 @@ body {
     transform: translate(-5%, -5%);
   }
 
-  footer {
-    position: absolute;
-    bottom: 0%;
-    background-image: url(/assets/footer.svg);
-    background-size: cover;
-    width: 100vw;
-    aspect-ratio: 16/3;
-  }
-  .footer-content {
-    position: relative;
-    left: 20%;
-    top: 10%;
-    max-width: 1200px;
-    height: 80%;
-    border-style: solid;
-    border-color: white;
-    display: flex;
-    justify-content: space-around;
-  } 
 
-  .footer-line {
-    position: relative;
-    background-color: white;
-    width: 2px;
-    height: 35%;
+  /* Header */
+  header {
+    background-color: #fdfbf5;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
   }
+  
+  .header-logo {
+    flex: 1;
+  }
+  
+  .header-logo img {
+    height: 116.5px;
+    width: 290px;
+  }
+  
+  .menu-toggle {
+    margin-left: auto;
+    cursor: pointer;
+    display: none;
+  }
+  
+  nav {
+    display: flex;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 10px;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #154e4d;
+    border: 2px solid transparent;
+  }
+  
+  nav a:hover {
+    border-color: #3f6e6d;
+  }
+  
+  nav a.selected {
+    border-color: #154e4d;
+  }
+  body {
+    background-color: #fdfbf5;
+  }
+  
+  @media (max-width: 600px) {
+    .menu-toggle {
+      display: block;
+    }
+  
+    nav ul {
+      display: none;
+      flex-direction: column;
+    }
+  
+    nav.active ul {
+      display: block;
+    }
+  }
+  
+    /* Header done */
