@@ -1,0 +1,71 @@
+.main-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.card-text-container {
+    display: flex;
+    align-items: center;
+    gap: 25%;
+}
+
+.intro {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 10vw;
+}
+.intro-left {
+    max-width: 25vw;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+}
+#intro-button-background {
+    position: relative;
+    left: 11%;
+    background-color: var(--dark-green);
+    height: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    z-index: -1;
+    transition: all 800ms ease-in-out;
+}
+#intro-button:hover #intro-button-background {
+    
+}
+
+#intro-button {
+    display: flex;
+    align-items: center;
+}
+#intro-button a{
+    text-decoration: none;
+    font-family: 'Cormorant', serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--creme);
+}
+
+#booking-arrow {
+    background-image: url("<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-right" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E3A781" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+    <path d="M5 12l14 0" />
+    <path d="M13 18l6 -6" />
+    <path d="M13 6l6 6" />
+  </svg>);
+  display: inline;
+}
+
+
+#intro-image {
+    height: 27vh;
+    aspect-ratio: 4/5;
+    background-image: url(/billeder/portraet1_hori.jpg);
+    background-size: cover;
+    background-position: center;
+}
