@@ -26,7 +26,7 @@ Orange:    #A13A00
     position: relative;
     height: 15vh;
     aspect-ratio: 611/407;
-    background-color: #154E4D;
+    background-color: var(--dark-green);
     z-index: 25;
     display: flex;
     justify-content: center;
