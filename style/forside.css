@@ -27,40 +27,55 @@
 }
 #intro-button-background {
     position: relative;
-    left: 11%;
+    left: 0%;
     background-color: var(--dark-green);
     height: 100%;
-    aspect-ratio: 1/1;
-    border-radius: 50%;
+    aspect-ratio: 4/1;
+    border-radius: 25px;
     z-index: -1;
-    transition: all 800ms ease-in-out;
+    transition: all 400ms ease-in-out;
+    clip-path: circle(15% at 35% 50%);
 }
+
 #intro-button:hover #intro-button-background {
+    clip-path: circle(100% at 50% 50%);
     
 }
+
+
+
 
 #intro-button {
     display: flex;
     align-items: center;
 }
 #intro-button a{
+    position: relative;
+    left: -35%;
     text-decoration: none;
     font-family: 'Cormorant', serif;
     font-weight: 600;
     font-size: 20px;
     color: var(--creme);
+    margin-left: 0;
 }
 
 #booking-arrow {
-    background-image: url("<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-right" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E3A781" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    position: relative;
+    left: -35%;
+    background-image: url("<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-right" width="40" height="40" viewBox="0 0 24 24" stroke-width="0.5" stroke="#E3A781" fill="none" stroke-linecap="round" stroke-linejoin="round">
     <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
     <path d="M5 12l14 0" />
     <path d="M13 18l6 -6" />
     <path d="M13 6l6 6" />
   </svg>);
   display: inline;
+  transition: all 400ms ease-out;
 }
 
+#intro-button:hover #booking-arrow {
+    left: -25%
+}
 
 #intro-image {
     height: 27vh;
