@@ -178,3 +178,127 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+
+@media (max-width: 600px) {
+  .booking_grid_1-1 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 33% 33% 33%;
+  }
+
+  .booking_h1 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .booking_h3 {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .booking_img {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .booking_text {
+    border: none;
+    margin-bottom: 5%;
+    margin-top: -2%;
+  }
+
+  .booking_ydelser {
+    font-size: 25px;
+  }
+  .booking_orange-line-horizontal {
+    height: 2.5vh;
+    margin-left: -6%;
+    margin-right: 39%;
+    width: 25%;
+  }
+
+  .booking_txt_grid {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+  }
+
+  .booking_txt1 {
+    grid-column: 1;
+    grid-row: 1;
+    margin-bottom: 0%;
+  }
+
+  .booking_txt2 {
+    grid-column: 1;
+    grid-row: 2;
+    margin-top: 0%;
+  }
+
+  .booking_kort {
+    width: 85%;
+  }
+
+  .booking_orangeline {
+    display: none;
+  }
+
+  .booking_grid1_2 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 10% 10% 10% 10%10% 10% 10% 10% 10%;
+  }
+
+  .booking_ydelse {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .booking_ydelse_orange {
+    grid-column: 1;
+    grid-row: 2;
+    width: 57%;
+  }
+
+  .booking_pic1 {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .booking_dato {
+    grid-column: 1;
+    grid-row: 4;
+    margin-left: 0%;
+  }
+
+  .booking_dato_orange {
+    grid-column: 1;
+    grid-row: 5;
+    width: 54%;
+  }
+
+  .booking_pic2 {
+    grid-column: 1;
+    grid-row: 6;
+  }
+
+  .booking_informationer {
+    grid-column: 1;
+    grid-row: 7;
+  }
+
+  .booking_informationer_orange {
+    grid-column: 1;
+    grid-row: 8;
+    margin-top: 0%;
+    width: 72%;
+  }
+
+  .booking_pic3 {
+    grid-column: 1;
+    grid-row: 9;
+    margin-top: 0%;
+  }
+
+  .booking_adresse_informationer {
+    grid-column: 1;
+    grid-row: 10;
+  }
+}
