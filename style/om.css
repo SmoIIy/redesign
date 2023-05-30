@@ -51,14 +51,14 @@ p {
 }
 .om_card_container {
   position: relative;
-  height: 47vh;
+  height: 37vh;
   aspect-ratio: 611/407;
   background-color: #154e4d;
   z-index: 25;
   display: flex;
   justify-content: center;
-  top: 10%;
-  left: 9%;
+  top: 7%;
+  left: 6%;
 }
 
 .om_blomst {
@@ -67,8 +67,8 @@ p {
   background-position: center;
   width: 100%;
   position: relative;
-  top: -8%;
-  left: 6%;
+  top: -5%;
+  left: 4%;
   aspect-ratio: 16/9;
 }
 
