@@ -117,3 +117,17 @@ p {
   font-size: 5vh;
   
 }
+#portrait-card-2 {
+  height: 55vh;
+  margin-top: 15%;
+}
+
+#portrait-card-image-2 {
+  aspect-ratio: 4/5;
+  background-image: url(/billeder/woman-jumping.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  left: -3%;
+  top: -10px;
+}
