@@ -6,13 +6,19 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 200px;
+    justify-content: space-evenly;
 }
 
 .card-text-container {
     display: flex;
+    min-width: 600px;
     align-items: center;
+    justify-content: space-around;
     gap: 25%;
+}
+
+.card-text {
+    min-width: 300px;
 }
 
 .intro {
@@ -85,9 +91,9 @@ body {
     left: -4%;
     height: 33vh;
     aspect-ratio: 4/5;
-    background-image: url(/billeder/portraet1_hori.jpg);
+    background-image: url(/billeder/couple-sitting.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: left;
 }
 #intro-white-box {
     position: relative;
