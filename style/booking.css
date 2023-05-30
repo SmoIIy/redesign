@@ -27,6 +27,7 @@ img {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 100%;
+  margin: auto;
 }
 
 .booking_txt {
@@ -38,7 +39,8 @@ img {
   font-weight: bold;
   grid-column: 1;
   grid-row: 1;
-  padding-right: 24%;
+  margin-right: auto;
+  margin-left: auto;
 }
 .booking_txt2 {
   font-family: "Cormorant", serif;
@@ -46,7 +48,8 @@ img {
   font-weight: bold;
   grid-column: 2;
   grid-row: 1;
-  padding-right: 24%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .booking_ydelser {
@@ -165,7 +168,7 @@ img {
   width: 50%;
   display: block;
   margin-left: auto;
-  margin-right: 35%;
+  margin-right: auto;
   margin-top: 5%;
   margin-bottom: 5%;
 }
