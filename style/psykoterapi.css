@@ -47,6 +47,7 @@
   grid-template-columns: 60% 40%;
   max-width: 1200px;
   margin: auto;
+  
 }
 
 .psyko_right {
@@ -90,4 +91,29 @@ p {
 
 #psyko-liste {
   grid-column: 2;
+  grid-row: 3;
+}
+
+#psyko-har-du-lyst {
+  grid-column: 1;
+  grid-row: 4;
+}
+#flex_2_2-image {
+  aspect-ratio: 4/5;
+  height: 15vh;
+}
+
+.psyko-oevelse-container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-color: var(--dark-green);
+  border-width: 2vh;
+  padding: 5%;
+}
+.psyko-oevelse-container h1 {
+  text-align: center;
+  font-size: 5vh;
+  
 }
