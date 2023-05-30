@@ -73,9 +73,6 @@ Orange:    #A13A00
     transition: all 400ms ease;
   }
 
-  .card img {
-
-  }
   
   .card-container:hover{
     transform: translate(3%, 3%);
