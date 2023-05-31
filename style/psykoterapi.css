@@ -1,13 +1,19 @@
+.psykoterapi_size {
+  max-width: 1200px;
+  margin: auto;
+}
+
 .grid_1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.h1-psykoterapi {
+#h1-psykoterapi {
   border-style: solid;
   color: #154e4d;
   border-color: #e3a781;
-  margin-right: 60%;
   text-align: center;
+  margin-right: 25%;
+  margin-left: 25%;
 }
 
 .flex_1_2 {
@@ -101,6 +107,44 @@ p {
 #flex_2_2-image {
   aspect-ratio: 4/5;
   height: 15vh;
+  margin-top: -13%;
+}
+
+.psykoterapi_orange {
+  background-color: #e3a781;
+  height: 3.5vh;
+  width: 115%;
+}
+
+.psykoterapi_kvinde {
+  margin-bottom: 0%;
+}
+
+.psykoterapi_orange_kender_du_det {
+  background-color: #e3a781;
+  height: 3.5vh;
+  width: 53%;
+  margin-left: -7%;
+}
+
+.psykoterapi_kvinde_kender_du_det {
+  margin-bottom: 0%;
+}
+
+.psykoterapi_glade {
+  margin-right: -8%;
+  margin-bottom: 0%;
+}
+
+.psykoterapi_orange_glade {
+  background-color: #e3a781;
+  height: 3.5vh;
+  width: 116%;
+  margin-left: -7%;
+}
+
+#psyko-text-left-1 {
+  margin-top: -17%;
 }
 
 .psyko-oevelse-container {
@@ -111,11 +155,11 @@ p {
   border-color: var(--dark-green);
   border-width: 2vh;
   padding: 5%;
+  width: 57%;
 }
 .psyko-oevelse-container h1 {
   text-align: center;
   font-size: 5vh;
-  
 }
 #portrait-card-2 {
   height: 55vh;
@@ -130,4 +174,15 @@ p {
   position: relative;
   left: -3%;
   top: -10px;
+}
+
+.psykoterapi_oevelse {
+  text-align: center;
+}
+
+.psykoterapi_orangelinie {
+  background-color: #e3a781;
+  height: 0.3vh;
+  margin: auto;
+  width: 50%;
 }
