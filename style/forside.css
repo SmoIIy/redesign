@@ -2,21 +2,6 @@ body {
   margin: 0;
 }
 
-.main-cards {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-.card-text-container {
-  display: flex;
-  min-width: 600px;
-  align-items: center;
-  justify-content: space-around;
-  gap: 25%;
-}
-
 .card-text {
   min-width: 300px;
 }
@@ -221,16 +206,187 @@ body {
   }
   #flex_1_2-text {
     grid-column: 1;
-    grid-row: 2;
-    margin-left: -5%;
+    margin-left: -4%;
+    max-width: 89%;
   }
 
   #flex_1_2-image {
     grid-column: 1;
     grid-row: 1;
+    margin-left: 1%;
+    margin-top: -12%;
   }
   .portrait-card {
     margin-left: 0%;
+  }
+
+  .main-cards {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+  }
+
+  .index_jeg_tilbyder {
+    grid-column: 1;
+    grid-row: 1;
+    margin: auto;
+  }
+
+  .orange1 {
+    grid-column: 1;
+    grid-row: 2;
+    margin: auto;
+  }
+  .index_parterapi {
+    grid-column: 1;
+    grid-row: 3;
+    margin: auto;
+  }
+
+  .index_card1 {
+    grid-column: 1;
+    grid-row: 4;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+  }
+  .cardparterapi {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .cardparterapi_txt {
+    grid-column: 1;
+    grid-row: 1;
+    margin-bottom: 9%;
+  }
+
+  .orange2 {
+    grid-column: 1;
+    grid-row: 5;
+    margin: auto;
+    margin-top: 4%;
+  }
+  .index_psykoterapih3 {
+    grid-column: 1;
+    grid-row: 6;
+    margin: auto;
+  }
+
+  .card-container {
+    margin: auto;
+  }
+  .index_card2 {
+    grid-column: 1;
+    grid-row: 7;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+  }
+  .cardpsykoterapi_txt {
+    grid-column: 1;
+    grid-row: 1;
+    margin-bottom: 9%;
+  }
+  .cardpsykoterapi {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .orange3 {
+    grid-column: 1;
+    grid-row: 8;
+    margin: auto;
+    margin-top: 4%;
+  }
+  .index_stressbehandling {
+    grid-column: 1;
+    grid-row: 9;
+    margin: auto;
+  }
+
+  .index_card3 {
+    grid-column: 1;
+    grid-row: 10;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+  }
+  .cardstress {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .cardstress_txt {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .orange4 {
+    grid-column: 1;
+    grid-row: 11;
+    margin: auto;
+    margin-top: 4%;
+  }
+  .index_angst {
+    grid-column: 1;
+    grid-row: 12;
+    margin: auto;
+  }
+  .index_card4 {
+    grid-column: 1;
+    grid-row: 13;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+  }
+
+  .cardangst_txt {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .cardangst {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .orange5 {
+    grid-column: 1;
+    grid-row: 14;
+    margin: auto;
+    margin-top: 4%;
+  }
+  .index_drepression {
+    grid-column: 1;
+    grid-row: 15;
+    margin: auto;
+  }
+  .index_card5 {
+    grid-column: 1;
+    grid-row: 16;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+  }
+  .carddepression {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .carddepression_txt {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .orange6 {
+    grid-column: 1;
+    grid-row: 17;
+    margin: auto;
+    margin-top: 4%;
+  }
+
+  .card-text {
+    margin-bottom: 10%;
   }
 }
 
@@ -248,5 +404,18 @@ body {
     margin-left: 25px;
     display: flex;
     flex-direction: column;
+  }
+  .main-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .card-text-container {
+    display: flex;
+    min-width: 600px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25%;
   }
 }
