@@ -35,7 +35,7 @@
 }
 .portrait-card-image {
   aspect-ratio: 14/10;
-  background-image: url(/billeder/couple-sitting.jpg);
+  background-image: url(/billeder/couple-sitting.webp);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -168,7 +168,7 @@ p {
 
 #portrait-card-image-2 {
   aspect-ratio: 4/5;
-  background-image: url(/billeder/woman-jumping.jpg);
+  background-image: url(/billeder/woman-jumping.webp);
   background-size: cover;
   background-position: center;
   position: relative;

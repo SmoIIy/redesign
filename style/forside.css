@@ -92,7 +92,7 @@ body {
     left: -4%;
     height: 33vh;
     aspect-ratio: 4/5;
-    background-image: url(/billeder/couple-sitting.jpg);
+    background-image: url(/billeder/couple-sitting.webp);
     background-size: cover;
     background-position: left;
 }
@@ -165,7 +165,7 @@ body {
 }
 .portrait-card-image {
     aspect-ratio: 4/5;
-    background-image: url(/billeder/portraet1_hori.jpg);
+    background-image: url(/billeder/portraet1_hori.webcouple-sitting.webp);
     background-size: cover;
     background-position: center;
     position: relative;
