@@ -261,6 +261,43 @@ p {
     margin-top: 65%;
     margin-left: -2%;
   }
+
+  #psyko-har-du-lyst {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 33% 33% 33%;
+  }
+  .psykoterapi_glade {
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 1.5rem;
+  }
+
+  .psykoterapi_orange_glade {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .psykoterapi_punktopstilling {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .psykoterapi_oevelse {
+    margin-bottom: 0%;
+  }
+  .psyko-oevelse-container {
+    border-width: 0.5vh;
+    width: 83%;
+    margin-bottom: -17%;
+  }
+
+  .psyko-oevelse-container h1 {
+    font-size: 0vh;
+  }
+  #flex_2_2-image {
+    margin-top: -34%;
+  }
 }
 
 @media (min-width: 600px) {
