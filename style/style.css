@@ -223,7 +223,7 @@ body {
     display: block;
     z-index: 98;
     background-color: var(--light);
-    padding-top: 120px;
+    padding-top: 35px;
     transition: 0.4s;
   }
   .mobile-nav-links.is-active {

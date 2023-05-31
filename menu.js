@@ -1,7 +1,3 @@
-function toggleMenu() {
-  var menu = document.getElementById("menu");
-  menu.classList.toggle("active");
-}
 /* Hamburger Menu */
 
 window.onload = function (){
