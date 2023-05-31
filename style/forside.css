@@ -165,7 +165,7 @@ body {
 }
 .portrait-card-image {
     aspect-ratio: 4/5;
-    background-image: url(/billeder/portraet1_hori.webcouple-sitting.webp);
+    background-image: url(/billeder/portraet1_hori.webp);
     background-size: cover;
     background-position: center;
     position: relative;
