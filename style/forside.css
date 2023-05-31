@@ -1,240 +1,178 @@
 body {
-  margin: 0;
+    margin: 0;
 }
 
 .main-cards {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .card-text-container {
-  display: flex;
-  min-width: 600px;
-  align-items: center;
-  justify-content: space-around;
-  gap: 25%;
+    display: flex;
+    min-width: 600px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25%;
 }
 
 .card-text {
-  min-width: 300px;
+    min-width: 300px;
 }
 
-.intro-left h1 {
-  text-align: center;
-}
-#intro-button-background {
-  position: relative;
-  left: 0%;
-  background-color: var(--dark-green);
-  height: 100%;
-  aspect-ratio: 4/1;
-  border-radius: 25px;
-  z-index: -1;
-  transition: all 400ms ease-in-out;
-  clip-path: circle(15% at 35% 50%);
-}
-
-#intro-button:hover #intro-button-background {
-  clip-path: circle(100% at 50% 50%);
-}
-
-#intro-button {
-  display: flex;
-  align-items: center;
-}
-#intro-button a {
-  position: relative;
-  left: -35%;
-  text-decoration: none;
-  font-family: "Cormorant", serif;
-  font-weight: 600;
-  font-size: 20px;
-  color: var(--creme);
-  margin-left: 0;
-}
-
-#booking-arrow {
-  position: relative;
-  left: -35%;
-  display: inline;
-  transition: all 400ms ease-out;
-}
-
-#intro-button:hover #booking-arrow {
-  left: -25%;
-}
-
-#intro-image {
-  position: relative;
-  bottom: 16%;
-  left: -4%;
-  height: 33vh;
-  aspect-ratio: 4/5;
-  background-image: url(/billeder/couple-sitting.webp);
-  background-size: cover;
-  background-position: left;
-}
-#intro-white-box {
-  position: relative;
-  right: -81%;
-  top: 15%;
-  height: 21%;
-  width: 20%;
-  background-color: var(--light);
-}
-
-.intro-right {
-  width: 30vw;
-  height: 35vh;
-}
-
-#intro-green-card {
-  height: 100%;
-  width: 100%;
-  background-color: var(--dark-green);
-}
-
-#intro-bar {
-  background-color: var(--creme);
-  width: 120%;
-  height: 10%;
-  position: relative;
-  left: -14%;
-  bottom: 43%;
-}
-#intro-bar h3 {
-  color: var(--light);
-  padding-left: 10%;
-}
-
-.horizontal-divider {
-  background-color: var(--creme);
-  height: 3vh;
-  max-width: 1200px;
-  margin-top: 10vh;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10vh;
-}
-.section_1_2 {
-  text-align: center;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#flex_1_2-text {
-  max-width: 50%;
-}
-#flex_1_2-text p {
-  font-size: 2.5vh;
-}
-
-.portrait-card-background {
-  background-color: var(--dark-green);
-}
-.portrait-card-image {
-  aspect-ratio: 4/5;
-  background-image: url(/billeder/portraet1_hori.webcouple-sitting.webp);
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  left: -3%;
-  top: -10px;
-}
-.portrait-card {
-  height: 40vh;
-  aspect-ratio: 4/5;
-}
-
-@media (max-width: 600px) {
-  .intro-left {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 33% 33% 33%;
-  }
-  .intro_psykoterapi {
-    grid-column: 1;
-    grid-row: 1;
-  }
-  .intro_velkommen {
-    grid-column: 1;
-    grid-row: 2;
-  }
-
-  #intro-button {
-    grid-column: 1;
-    grid-row: 3;
-  }
-  .intro-right {
-    margin-left: 16%;
-    position: absolute;
-    margin-top: -94%;
-  }
-
-  #intro-green-card {
-    width: 242%;
-  }
-  #intro-button {
-    margin-top: 81%;
-  }
-
-  .horizontal-divider {
-    margin-top: 3vh;
-  }
-  .section_1_2 {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 50% 50%;
-  }
-  .index_hejsa {
-    grid-column: 1;
-    grid-row: 1;
-  }
-  .index_psykoterapeut {
-    grid-column: 1;
-    grid-row: 2;
-  }
-  .flex_1_2 {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 50% 50%;
-  }
-
-  #flex_1_2-text {
-    grid-column: 1;
-    grid-row: 1;
-    text-align: center;
-    margin: auto;
-  }
-
-  #flex_1_2-image {
-    grid-column: 1;
-    grid-row: 2;
-  }
-}
-@media (min-width: 600px) {
-  .intro {
+.intro {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     justify-content: space-between;
     gap: 10vw;
-  }
-  .intro-left {
+}
+.intro-left {
     max-width: 25vw;
     margin-left: 25px;
     display: flex;
     flex-direction: column;
-  }
-  .flex_1_2 {
+   
+}
+
+.intro-left h1 {
+    text-align: center;
+}
+#intro-button-background {
+    position: relative;
+    left: 0%;
+    background-color: var(--dark-green);
+    height: 100%;
+    aspect-ratio: 4/1;
+    border-radius: 25px;
+    z-index: -1;
+    transition: all 400ms ease-in-out;
+    clip-path: circle(15% at 35% 50%);
+}
+
+#intro-button:hover #intro-button-background {
+    clip-path: circle(100% at 50% 50%);
+    
+}
+
+
+
+
+#intro-button {
+    display: flex;
+    align-items: center;
+}
+#intro-button a{
+    position: relative;
+    left: -35%;
+    text-decoration: none;
+    font-family: 'Cormorant', serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--creme);
+    margin-left: 0;
+}
+
+#booking-arrow {
+    position: relative;
+    left: -35%;
+    display: inline;
+    transition: all 400ms ease-out;
+}
+
+#intro-button:hover #booking-arrow {
+    left: -25%
+}
+
+#intro-image {
+    position: relative;
+    bottom: 16%;
+    left: -4%;
+    height: 33vh;
+    aspect-ratio: 4/5;
+    background-image: url(/billeder/couple-sitting.webp);
+    background-size: cover;
+    background-position: left;
+}
+#intro-white-box {
+    position: relative;
+    right: -81%;
+    top: 15%;
+    height: 21%;
+    width: 20%;
+    background-color: var(--light);
+}
+
+.intro-right {
+    width: 30vw;
+    height: 35vh;
+}
+
+#intro-green-card {
+    height: 100%;
+    width: 100%;
+    background-color: var(--dark-green);
+}
+
+#intro-bar {
+    background-color: var(--creme);
+    width: 120%;
+    height: 10%;
+    position: relative;
+    left: -14%;
+    bottom: 43%;
+}
+#intro-bar h3 {
+    color: var(--light);
+    padding-left: 10%;
+}
+
+.horizontal-divider {
+    background-color: var(--creme);
+    height: 3vh;
+    max-width: 1200px;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10vh;
+}
+.section_1_2 {
+    text-align: center;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex_1_2 {
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap: 0%;
     margin: 5vh 0 5vh 0;
-  }
+}
+#flex_1_2-text {
+    max-width: 50%;
+
+}
+#flex_1_2-text p{
+    font-size: 2.5vh;
+}
+
+.portrait-card-background {
+    background-color: var(--dark-green);
+}
+.portrait-card-image {
+    aspect-ratio: 4/5;
+    background-image: url(/billeder/portraet1_hori.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    left: -3%;
+    top: -10px;
+}
+.portrait-card {
+    height: 40vh;
+    aspect-ratio: 4/5;
 }
