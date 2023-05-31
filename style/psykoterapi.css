@@ -48,14 +48,6 @@
   padding-left: 10%;
 }
 
-.grid3_1 {
-  display: grid;
-  grid-template-columns: 60% 40%;
-  max-width: 1200px;
-  margin: auto;
-  margin-top: 5%;
-}
-
 .psyko_right {
   grid-column: 2/3;
   grid-row: 1;
@@ -185,4 +177,135 @@ p {
   height: 0.3vh;
   margin: auto;
   width: 50%;
+}
+
+@media (max-width: 600px) {
+  .psyko_right {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+  }
+
+  #h1-psykoterapi {
+    grid-column: 1;
+    grid-row: 1;
+    width: 60%;
+    margin: auto;
+    margin-top: auto;
+    margin-top: 8%;
+  }
+
+  .psykoterapi_intro {
+    grid-column: 1;
+    grid-row: 2;
+    padding-left: 5%;
+  }
+
+  .portrait-card {
+    width: 83%;
+    height: 28vh;
+  }
+
+  #psyko-text-left-1 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 33% 33% 33%;
+    margin-top: -5%;
+  }
+  .psykoterapi_kvinde_kender_du_det {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .psykoterapi_orange_kender_du_det {
+    grid-column: 1;
+    grid-row: 2;
+    width: 93%;
+    height: 2vh;
+  }
+  .psyko_punktopstilling_li {
+    margin-left: -7%;
+    margin-right: 11%;
+  }
+
+  #psyko-liste {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 25% 25% 25% 25%;
+    margin-left: 40%;
+  }
+
+  .psykoterapi_kvinde {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .psykoterapi_orange {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .psykoterapi_forbudt {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .psyko_punktopstilling_li {
+    grid-column: 1;
+    grid-row: 4;
+  }
+
+  #portrait-card-2 {
+    position: absolute;
+    object-fit: cover;
+    width: 27%;
+    margin-top: 65%;
+    margin-left: -2%;
+  }
+
+  #psyko-har-du-lyst {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 33% 33% 33%;
+  }
+  .psykoterapi_glade {
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 1.5rem;
+  }
+
+  .psykoterapi_orange_glade {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .psykoterapi_punktopstilling {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .psykoterapi_oevelse {
+    margin-bottom: 0%;
+  }
+  .psyko-oevelse-container {
+    border-width: 0.5vh;
+    width: 83%;
+    margin-bottom: -17%;
+  }
+
+  .psyko-oevelse-container h1 {
+    font-size: 0vh;
+  }
+  #flex_2_2-image {
+    margin-top: -34%;
+  }
+}
+
+@media (min-width: 600px) {
+  .grid3_1 {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 5%;
+  }
 }
