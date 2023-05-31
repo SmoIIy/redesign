@@ -62,13 +62,13 @@ p {
 }
 
 .om_blomst {
-  background-image: url(/billeder/smorblomst.webp);
+ /* background-image: url(/billeder/smorblomst.webp);
   background-size: cover;
-  background-position: center;
+  background-position: center; */
   width: 100%;
   position: relative;
-  top: -5%;
-  left: 4%;
+  top: -3%;
+  left: 2.5%;
   aspect-ratio: 16/9;
 }
 
